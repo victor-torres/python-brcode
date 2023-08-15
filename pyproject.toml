@@ -1,13 +1,14 @@
 [tool.poetry]
-name = "brcode"
-version = "0.1.0"
+name = "python-brcode"
+version = "0.2.0"
 description = "Generates static BR Codes that could be used for PIX payments using simple value copy and paste or generating QR Codes."
 authors = ["Victor Torres <vpaivatorres@gmail.com>"]
 readme = "README.md"
+packages = [{include = "brcode"}]
+homepage = "https://github.com/victor-torres/python-brcode"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"

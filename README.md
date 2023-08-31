@@ -84,7 +84,7 @@ from decimal import Decimal
 from brcode import BRCode
 import qrcode
 
-brcode = (
+brcode = BRCode(
     name="Victor Torres",
     key="vpaivatorres@gmail.com",
     city="Natal",
